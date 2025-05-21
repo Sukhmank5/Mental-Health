@@ -1,14 +1,19 @@
-# Mental Health Awareness Dashboard: College Edition
+# Mental Health Awareness Dashboard (College Edition)
 
-This Shiny dashboard explores mental health trends among college-aged students (18–25) using real survey data. It focuses on raising awareness about mental health challenges, stigma, and factors influencing treatment-seeking behavior.
+This Shiny dashboard explores mental health trends among college-aged students (18–25) using real, anonymized survey data. It focuses on raising awareness about mental health challenges, stigma, and the factors that influence treatment-seeking behavior.
 
 ## Features
+
 - Interactive filters for gender and age
-- Visualizations for treatment rates, employment status, and perceived stigma
-- Custom mental health risk score based on key indicators
-- “Takeaway” and “Resources” tabs offering support and encouragement
+- Visualizations showing:
+  - Treatment rates
+  - Employment status and its relation to mental health
+  - Perceived stigma around mental health
+- A custom Mental Health Risk Score based on key survey indicators
+- Dedicated "Takeaway" and "Resources" tabs providing support, reflection, and encouragement
 
 ## Tech Stack
+
 - R
 - Shiny
 - ggplot2
@@ -17,12 +22,26 @@ This Shiny dashboard explores mental health trends among college-aged students (
 - bslib
 
 ## Purpose
-Built to empower students to reflect on their mental health and encourage open, stigma-free conversations.
+
+This project is designed to empower college students to reflect on their mental health, increase awareness, and foster open, stigma-free conversations around mental well-being.
 
 ## Live Demo
-https://sukhmank.shinyapps.io/mental_health/
+
+[View the Dashboard](https://sukhmank.shinyapps.io/mental_health/)
 
 ## Data
-Based on anonymized survey data included in the project repository.
+
+- Based on anonymized survey data from the [Mental Health in Tech Survey (2014)](https://www.kaggle.com/osmi/mental-health-in-tech-survey)
+- Data is included in the repository as `Survey.RData` for performance and privacy
+
+## Credits
+
+- Data Source: Open Sourcing Mental Illness (OSMI)
+- Special thanks to the Kaggle community for sharing this important dataset
+
+---
+
+Feel free to clone this project, explore, and adapt it to your own analysis or educational goals.
+
 
 
