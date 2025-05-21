@@ -20,7 +20,7 @@ This Shiny dashboard explores mental health trends among college-aged students (
 Built to empower students to reflect on their mental health and encourage open, stigma-free conversations.
 
 ## Live Demo
-(Optional: Add link if deployed)
+https://sukhmank.shinyapps.io/mental_health/
 
 ## Data
 Based on anonymized survey data included in the project repository.
